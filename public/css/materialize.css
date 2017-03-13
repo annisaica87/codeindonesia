@@ -8580,3 +8580,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+
+.container-code{
+  margin-left: 50px;
+}
+
+.container-cod{
+  margin-right: 50px;
+}
+
+.image-icon{
+  height: 15px;
+  width: 15px;
+}
+
+.logo-icon{
+  height: 20px;
+  width: 20px;
+}

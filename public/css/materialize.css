@@ -8589,12 +8589,46 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-right: 50px;
 }
 
+.container-level{
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+.container-contributor{
+  margin-top: 250px;
+}
+
 .image-icon{
   height: 15px;
   width: 15px;
 }
 
+.icon-contributor{
+  height: 18px;
+  width: 18px;
+}
+
 .logo-icon{
   height: 20px;
   width: 20px;
+}
+
+.logo-logo{
+  height: 150px;
+  width: 150px;
+}
+
+.logo-container{
+  height: 80px;
+  width: 80px;
+}
+
+.logo-contributor{
+  height: 100px;
+  width: 100px;
+}
+
+.text-code{
+  color: #000000;
+  size: 8px;
 }

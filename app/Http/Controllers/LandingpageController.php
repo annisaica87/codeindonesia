@@ -11,4 +11,8 @@ class LandingpageController extends Controller
     function index(){
     	return view('Landingpage');
     }
+
+    function coba(){
+    	return view('coba');
+    }
 }

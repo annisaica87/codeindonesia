@@ -31,3 +31,5 @@ Route::auth();
 Route::get('/loginpage', 'HomeController@index');
 
 Route::get("/", 'LandingpageController@index');
+
+Route::get('/coba', 'LandingpageController@coba');

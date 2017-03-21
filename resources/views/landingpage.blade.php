@@ -18,7 +18,9 @@
 <body>
 
 <nav class="blue accent-5" role="navigation">
-    <div class="nav-wrapper">
+
+
+  <div class="nav-wrapper">
 
     <div class="container-code">
       <a href="#" class="brand-logo">Logo</a>
@@ -29,7 +31,13 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">Artikel</a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdown1">Tutorial
-            <i class="material-icons right"><img src="image/dd.png" class="image-icon"></i></a></li>
+            <i class="material-icons right"><img src="image/dd.png" class="image-icon"></i>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">one</a></li>
+                    <li><a href="#!">two</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">three</a></li>
+                </ul></a></li>
       </ul>
     </div>
 
@@ -44,10 +52,115 @@
       </div>
     </ul>
 
+  </div>
+    
+    <div class="container-level">
+        <ul id="nav-mobile" class="center hide-on-med-on-and-down">
+            <li><a class="btn-flat"><img src="image/flaticon4.png" href="#" class="logo-logo">
+            <p> New Bie </p> </a> </li>
+        </ul>
+        <ul id="nav-mobile" class="center hide-on-med-on-and-down">
+            <li><a class="btn-flat"><img src="image/flaticon1.png" href="#" class="logo-logo">
+            <p> Intermediate </p> </a> </li>
+        </ul>
+        <ul id="nav-mobile" class="center hide-on-med-on-and-down">
+            <li><a class="btn-flat"><img src="image/flaticon3.png" href="#" class="logo-logo">
+            <p> Advance </p> </a> </li>
+        </ul>
+        <ul id="nav-mobile" class="center hide-on-med-on-and-down">
+            <li><a class="btn-flat"><img src="image/flaticon2.png" href="#" class="logo-logo">
+            <p> Expert </p> </a> </li>
+        </ul>
     </div>
+
+    <div class="container">
+    <div class="container-contributor">
+    <div class="row">
+        
+        <div class="card-small">
+        <div class="col s4">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+              <div class="card-image" style="margin-top:40px; margin-left:5px;">
+                <img src="image/people.png" class="logo-contributor">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="text-code"> <p>Contributor
+                                          <ul>
+                                              <li> <a> <img src="image/png/follow.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/like.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/comment.png" class="icon-contributor" href="#"> </a> </li> 
+                                          </ul> </p> </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="card-small">
+        <div class="col s4">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+              <div class="card-image" style="margin-top:40px; margin-left:5px;">
+                <img src="image/people.png" class="logo-contributor">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="text-code"> <p>Contributor
+                                          <ul>
+                                              <li> <a> <img src="image/png/follow.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/like.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/comment.png" class="icon-contributor" href="#"> </a> </li> 
+                                          </ul> </p> </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="card-small">
+        <div class="col s4">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+              <div class="card-image" style="margin-top:40px; margin-left:5px;">
+                <img src="image/people.png" class="logo-contributor">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="text-code"> <p>Contributor
+                                          <ul>
+                                              <li> <a> <img src="image/png/follow.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/like.png" class="icon-contributor" href="#"> </a> </li>
+                                          </ul>
+                                          <ul>
+                                              <li> <a> <img src="image/png/comment.png" class="icon-contributor" href="#"> </a> </li> 
+                                          </ul> </p> </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+
 </nav>
 
 <script src="{{asset('Landingpage/js/core.min.js')}}"></script> 
 <script src="{{asset('Landingpage/js/script.js')}}"></script> 
+
 </body>
 </html>
